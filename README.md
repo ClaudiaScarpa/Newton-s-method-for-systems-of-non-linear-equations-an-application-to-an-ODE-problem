@@ -19,9 +19,29 @@ Implementation of the generalized Newton's method for solving non-linear systems
 - `docs/`: Thesis documentation (PDF).
 - `examples/`: Scripts to replicate the numerical tests and convergence plots.
 
-## 🛠️ Usage (MatLab)
+## Usage (MatLab)
 To solve a non-linear ODE problem, define your boundary conditions and grid size, then call the main solver:
 
 ```matlab
 % Example call
 [y, niter, err] = metodonewton(n, yi, yf, xi, xf, F, P, nmax, toll);
+```
+## Numerical Results
+The tests conducted (e.g., Example 4.11) show that the method is highly efficient, typically reaching the desired tolerance in just 4 iterations.
+
+| Grid Points ($n$) | Iterations | $L^{\infty}$ Error |
+| :--- | :---: | :--- |
+| 16 | 4 | $1.2 \cdot 10^{-3}$ |
+| 32 | 4 | $2.95 \cdot 10^{-4}$ |
+| 64 | 4 | $7.38 \cdot 10^{-5}$ |
+| 128 | 4 | $1.85 \cdot 10^{-5}$ |
+| 256 | 4 | $4.61 \cdot 10^{-6}$ |
+| 512 | 4 | $1.15 \cdot 10^{-6}$ |
+
+## Author
+Claudia Scarpa Bachelor's Degree in Mathematics - University of Trento Supervisor: Prof. Paola Zanolli
+
+## References
+Quarteroni, A., Sacco, R., Saleri, F. (2008). Matematica Numerica.
+
+Greenspan, D., Casulli, V. (1988). Numerical Analysis for Applied Mathematics, Science, and Engineering.
