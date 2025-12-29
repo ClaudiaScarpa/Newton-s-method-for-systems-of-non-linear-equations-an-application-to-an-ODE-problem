@@ -1,5 +1,6 @@
 # Newton's Method for Systems of Non-linear Equations: an application to an ODE problem
-
+[![MATLAB](https://img.shields.io/badge/MATLAB-R2024-orange.svg)](https://www.mathworks.com/products/matlab.html)
+[![Topic](https://img.shields.io/badge/Topic-Numerical_Methods-blue.svg)]()
 This repository contains the numerical implementation and theoretical analysis developed for my **Bachelor's Thesis in Mathematics** at the University of Trento (A.Y. 2022-2023).
 
 ## Project Overview
