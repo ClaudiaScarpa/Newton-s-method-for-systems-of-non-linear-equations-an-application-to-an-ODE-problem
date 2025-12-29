@@ -39,7 +39,7 @@ The tests conducted (e.g., Example 4.11) show that the method is highly efficien
 | 512 | 4 | $1.15 \cdot 10^{-6}$ |
 
 ## Author
-Claudia Scarpa Bachelor's Degree in Mathematics - University of Trento Supervisor: Prof. Paola Zanolli
+Claudia Scarpa _Bachelor's Degree in Mathematics - University of Trento_ Supervisor: Prof. Paola Zanolli
 
 ## References
 Quarteroni, A., Sacco, R., Saleri, F. (2008). Matematica Numerica.
