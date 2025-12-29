@@ -25,7 +25,7 @@ To solve a non-linear ODE problem, define your boundary conditions and grid size
 
 ```matlab
 % Example call
-[y, niter, err] = metodonewton(n, yi, yf, xi, xf, F, P, nmax, toll);
+[y, niter, err] = newton_method(n, yi, yf, xi, xf, F, P, nmax, toll);
 ```
 ## Numerical Results
 The tests conducted (e.g., Example 4.11) show that the method is highly efficient, typically reaching the desired tolerance in just 4 iterations.
