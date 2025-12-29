@@ -12,12 +12,14 @@ Implementation of the generalized Newton's method for solving non-linear systems
 - **Convergence Analysis**: Verification of the quadratic convergence and error behavior as a function of the grid step $h$.
 
 ## Repository Structure
-- `src/`: Core MatLab functions.
-  - `metodonewton.m`: The main solver implementing the Newton iteration.
-  - `differenzecentrate.m`: Function to construct the system $F(y) = 0$ and its Jacobian.
-  - `thomasbis.m`: Optimized tridiagonal system solver.
-- `docs/`: Thesis documentation (PDF).
-- `examples/`: Scripts to replicate the numerical tests and convergence plots.
+
+- `src/`: Core MatLab functions for the numerical solver.
+  - `central_differences.m`: Discretizes the ODE into a non-linear algebraic system.
+  - `newton_method.m`: Implements the iterative Newton-Raphson process.
+  - `thomas_algorithm.m`: Optimized solver for tridiagonal linear systems.
+- `main_script.m`: The entry point to run tests. It includes multiple examples from the thesis and visualizes the results.
+- `docs/`: Documentation and academic context.
+  - `Tesi_Claudia_Scarpa.pdf`: The full Bachelor's Thesis.
 
 ## Usage (MatLab)
 To solve a non-linear ODE problem, define your boundary conditions and grid size, then call the main solver:
