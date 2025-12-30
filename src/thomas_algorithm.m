@@ -1,6 +1,6 @@
 function x = thomas_algorithm(A, b_vec)
-% Thomas Algorithm for solving tridiagonal systems Ax = b [cite: 535, 537]
-% Optimized for memory and speed [cite: 536]
+% Thomas Algorithm for solving tridiagonal systems Ax = b 
+% Optimized for memory and speed 
 
 diag_main = diag(A);
 m = length(diag_main);
@@ -35,3 +35,4 @@ for i = m-1:-1:1
     x(i) = (y(i) - upper_diag(i) * x(i+1)) / alpha(i);
 end
 end
+
